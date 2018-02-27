@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/post/post",
+    "pages/moves/moves",
+    "pages/post/post-detail/post-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar": {
+    "borderStyle":"while",
+    "position":"bottom",
+    "list": [{
+        "pagePath": "pages/post/post",
+        "text": "资讯",
+       "iconPath":"images/tab/yuedu.png",
+       "selectedIconPath":"images/tab/yuedu_hl.png"
+      },{
+        "pagePath": "pages/moves/moves",
+        "text": "电影",
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
+      }]
+  }
+}
